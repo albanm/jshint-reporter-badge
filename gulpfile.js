@@ -42,7 +42,7 @@ gulp.task('deploy-build', ['lint', 'git-config'], function() {
 	};
 	if (process.env.githubToken) {
 		console.log('"githubToken" environment variable found, use it to authenticate to github');
-		deployOptions.remoteUrl = 'https://' + process.env.githubToken + '@github.com/djity/fact-client-angular';
+		deployOptions.remoteUrl = 'https://' + process.env.githubToken + '@github.com/albanm/jshint-reporter-badge';
 	}
 	return gulp.src('./build/**/*')
 		.pipe(deploy(deployOptions));
