@@ -1,5 +1,7 @@
 # jshint-reporter-badge
 
+[![Build status](https://travis-ci.org/albanm/jshint-reporter-badge.svg)](https://img.shields.io/travis/albanm/jshint-reporter-badge)
+
 *A simple jshint reporter that produces a badge inspired by shield.io*
 
 ## Install
