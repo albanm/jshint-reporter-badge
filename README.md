@@ -11,3 +11,10 @@
 ## usage
 
     jshint --reporter node_modules/jshint-reporter-badge/index.js file.js > badge.svg
+
+You can configure it using environment variables, for example:
+
+    export JSHINT_BADGE_SUBJECT=lint
+    export JSHINT_BADGE_OK_COLOR=green
+    export JSHINT_BADGE_KO_COLOR=orange
+    export JSHINT_BADGE_STYLE=flat

@@ -2,7 +2,7 @@ var shields = require('shields-lightweight');
 
 exports.reporter = function(errors) {
 	var subject = process.env.JSHINT_BADGE_SUBJECT || 'jshint';
-	var okColor = process.env.JSHINT_BADGE_OK_COLOR || 'green';
+	var okColor = process.env.JSHINT_BADGE_OK_COLOR || 'brightgreen';
 	var koColor = process.env.JSHINT_BADGE_KO_COLOR || 'red';
 	var style = process.env.JSHINT_BADGE_STYLE;
 
