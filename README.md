@@ -4,6 +4,10 @@
 
 *A simple jshint reporter that produces a badge inspired by shields.io*
 
+For example the following badge is self served by this project, not by any service provider. Click it to access a JSHint report in HTML.
+
+[![JSHint status](http://albanm.github.io/jshint-reporter-badge/jshint-badge.svg)](http://albanm.github.io/jshint-reporter-badge/jshint.html)
+
 ## Install
 
     npm install jshint-reporter-badge
