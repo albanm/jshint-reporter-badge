@@ -1,6 +1,6 @@
 {
   "name": "jshint-reporter-badge",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple jshint reporter that produces badges using shield.io",
   "main": "index.js",
   "directories": {
